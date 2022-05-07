@@ -1,0 +1,242 @@
+:root {
+  --var-connectus-blue: #1bbfb6;
+  --var-connectus-orange: #f15a41;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.btn {
+  border: none;
+  background-color: var(--var-connectus-blue);
+}
+
+.white {
+  background-color: #eee;
+}
+
+.blue {
+  background-color: var(--var-connectus-blue);
+}
+
+.btn:hover {
+  background-color: var(--var-connectus-orange);
+  color: white;
+}
+
+.delete,
+.orange {
+  background-color: var(--var-connectus-orange);
+  color: white;
+}
+
+.delete:hover {
+  background-color: black;
+  color: white;
+}
+
+/* .navbar,
+.app-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} */
+
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("img/showcase.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 88vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-logo {
+  width: 25%;
+  animation-name: landing-logo-animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes landing-logo-animate {
+  from {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+  }
+}
+
+.cta-copy {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto 20px;
+}
+
+.bold-title {
+  font-weight: 500;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  margin-top: 20px;
+}
+
+.form-control + div {
+  color: var(--var-connectus-orange);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divider .btn-lg {
+  width: 150px;
+}
+
+.input-group {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group * {
+  height: 100%;
+}
+
+.btn-container {
+  width: 10%;
+}
+
+.icon-btn {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.social-inputs {
+  padding-left: 10px;
+  width: 90%;
+  outline: none;
+  border: 1px solid #ddd;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.select-container {
+  position: relative;
+}
+
+.profession-select {
+  width: 5px;
+  height: 5px;
+  border: 5px solid;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  z-index: 100;
+}
+
+.exp-table,
+.edu-table {
+  width: 100%;
+}
+
+.exp-table thead tr:first-child,
+.edu-table thead tr:first-child {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.exp-block,
+.edu-block {
+  margin-top: 25px;
+}
+
+.dashboard-control {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-control i {
+  color: black;
+  margin-right: 10px;
+}
+
+* {
+  user-select: none;
+}
+
+.text-blue {
+  color: var(--var-connectus-blue);
+}
